@@ -1,0 +1,16 @@
+﻿namespace Tanks.Battle.ClientCore.Impl
+{
+    using Platform.Kernel.ECS.ClientEntitySystem.API;
+    using Platform.Library.ClientProtocol.API;
+    using System;
+    using System.Runtime.CompilerServices;
+
+    [Shared, SerialVersionUID(0x4a55262c9de4402eL)]
+    public class PingEvent : Event
+    {
+        public long ServerTime { get; set; }
+
+        public sbyte CommandId { get; set; }
+    }
+}
+

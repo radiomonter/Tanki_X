@@ -1,0 +1,55 @@
+﻿namespace WebSocketSharp.Net
+{
+    using System;
+
+    public enum HttpStatusCode
+    {
+        Continue = 100,
+        SwitchingProtocols = 0x65,
+        OK = 200,
+        Created = 0xc9,
+        Accepted = 0xca,
+        NonAuthoritativeInformation = 0xcb,
+        NoContent = 0xcc,
+        ResetContent = 0xcd,
+        PartialContent = 0xce,
+        MultipleChoices = 300,
+        Ambiguous = 300,
+        MovedPermanently = 0x12d,
+        Moved = 0x12d,
+        Found = 0x12e,
+        Redirect = 0x12e,
+        SeeOther = 0x12f,
+        RedirectMethod = 0x12f,
+        NotModified = 0x130,
+        UseProxy = 0x131,
+        Unused = 0x132,
+        TemporaryRedirect = 0x133,
+        RedirectKeepVerb = 0x133,
+        BadRequest = 400,
+        Unauthorized = 0x191,
+        PaymentRequired = 0x192,
+        Forbidden = 0x193,
+        NotFound = 0x194,
+        MethodNotAllowed = 0x195,
+        NotAcceptable = 0x196,
+        ProxyAuthenticationRequired = 0x197,
+        RequestTimeout = 0x198,
+        Conflict = 0x199,
+        Gone = 410,
+        LengthRequired = 0x19b,
+        PreconditionFailed = 0x19c,
+        RequestEntityTooLarge = 0x19d,
+        RequestUriTooLong = 0x19e,
+        UnsupportedMediaType = 0x19f,
+        RequestedRangeNotSatisfiable = 0x1a0,
+        ExpectationFailed = 0x1a1,
+        InternalServerError = 500,
+        NotImplemented = 0x1f5,
+        BadGateway = 0x1f6,
+        ServiceUnavailable = 0x1f7,
+        GatewayTimeout = 0x1f8,
+        HttpVersionNotSupported = 0x1f9
+    }
+}
+
